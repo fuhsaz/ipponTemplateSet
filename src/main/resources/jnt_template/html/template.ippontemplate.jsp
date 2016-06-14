@@ -13,6 +13,29 @@
 <%--@elvariable id="renderContext" type="org.jahia.services.render.RenderContext"--%>
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
+
+<template:addResources type="css" resources="brandon/css/animate.min.css" />
+<template:addResources type="css" resources="brandon/css/base.css" />
+<template:addResources type="css" resources="brandon/css/buttons.css" />
+<template:addResources type="css" resources="brandon/css/custom.css" />
+<template:addResources type="css" resources="brandon/css/fonts.css" />
+<template:addResources type="css" resources="brandon/css/grid.css" />
+<template:addResources type="css" resources="brandon/css/isotope.css" />
+<template:addResources type="css" resources="brandon/css/layout.css" />
+<template:addResources type="css" resources="brandon/css/prettyPhoto.css" />
+<template:addResources type="css" resources="brandon/css/responsive.css" />
+<template:addResources type="css" resources="brandon/css/shortcodes.css" />
+<template:addResources type="css" resources="brandon/css/variables.css" />
+<template:addResources type="css" resources="brandon/css/woocommerce.css" />
+
+<template:addResources type="css" resources="brandon/style-colors.php" />
+<template:addResources type="css" resources="brandon/style.css" />
+<template:addResources type="css" resources="brandon/style.php" />
+
+<template:addResources type="css" resources="brandon-child/css/swipebox.min.css" />
+
+<template:addResources type="css" resources="brandon-child/style.css" />
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
     <modules jcr:primaryType="jnt:modules">
-        <ippontemplate j:dependencies="bootstrap3-components bootstrap3-core default font-awesome"
+        <ippontemplate j:dependencies="bootstrap3-components bootstrap3-core default font-awesome imagewithclass jquery"
                      j:installedModules="ippontemplate"
                      j:modulePriority="0"
                      j:moduleType="templatesSet"
                      j:title="IpponTemplate"
+                     jcr:mixinTypes="jmix:hasExternalProviderExtension"
                      jcr:primaryType="jnt:module">
+                <sources jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                  jcr:primaryType="jnt:moduleVersionFolder"
+                  j:staticMountPointProviderKey="module-ippontemplate-1.0-SNAPSHOT">
+                    <src jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
+                        <main jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
+                            <resources jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
+                                <css jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:cssFolder">
+                                    <brandon jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
+                                        <css jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:cssFolder">
+                                            <fonts.css jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:cssFile"/>
+                                        </css>
+                                    </brandon>
+                                </css>
+                                <jnt_template jcr:mixinTypes="jmix:sourceControl"
+                                   jcr:primaryType="jnt:nodeTypeFolder">
+                                    <html jcr:mixinTypes="jmix:sourceControl"
+                              jcr:primaryType="jnt:templateTypeFolder">
+                                        <template.ippontemplate.jsp jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:viewFile"/>
+                                    </html>
+                                </jnt_template>
+                            </resources>
+                        </main>
+                    </src>
+                </sources>
 
             <portlets jcr:primaryType="jnt:portletFolder"/>
             <files jcr:primaryType="jnt:folder"/>
