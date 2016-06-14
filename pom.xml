@@ -62,6 +62,9 @@
     <connection>scm:git:git@github.com:fuhsaz/ipponTemplateSet.git</connection>
     <developerConnection>scm:git:git@github.com:fuhsaz/ipponTemplateSet.git</developerConnection>
   </scm>
+  <properties>
+    <jahia-depends>bootstrap3-components,bootstrap3-core,default</jahia-depends>
+  </properties>
   <repositories>
     <repository>
       <releases>
@@ -85,7 +88,6 @@
         <configuration>
           <instructions>
             <Jahia-Module-Type>templatesSet</Jahia-Module-Type>
-            <Jahia-Depends>default</Jahia-Depends>
           </instructions>
         </configuration>
       </plugin>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
     <modules jcr:primaryType="jnt:modules">
-        <ippontemplate j:dependencies="default"
+        <ippontemplate j:dependencies="bootstrap3-components bootstrap3-core default"
                      j:installedModules="ippontemplate"
                      j:modulePriority="0"
                      j:moduleType="templatesSet"
@@ -24,6 +24,111 @@
                   jcr:primaryType="jnt:template">
                     <home jcr:primaryType="jnt:pageTemplate"/>
                     <simple jcr:primaryType="jnt:pageTemplate"/>
+                        <pagecontent jcr:primaryType="jnt:contentList">
+                            <Body columnsType="nogrid"
+                        jcr:mixinTypes="bootstrap3mix:createSection"
+                        jcr:primaryType="bootstrap3nt:columns"
+                        sectionCssClass="template-slider color-custom layout-boxed sticky-header"
+                        sectionElement="div">
+                                <Body jcr:primaryType="jnt:contentList">
+                                    <Wrapper columnsType="nogrid"
+                                 jcr:mixinTypes="bootstrap3mix:createSection"
+                                 jcr:primaryType="bootstrap3nt:columns"
+                                 sectionElement="div"
+                                 sectionId="Wrapper">
+                                        <Wrapper jcr:primaryType="jnt:contentList">
+                                            <header_x0020_placeholder columnsType="nogrid"
+                                                        jcr:mixinTypes="bootstrap3mix:createSection"
+                                                        jcr:primaryType="bootstrap3nt:columns"
+                                                        sectionCssClass="header_placeholder"
+                                                        sectionElement="div"/>
+                                            <Header columnsType="nogrid"
+                                      jcr:mixinTypes="bootstrap3mix:createSection"
+                                      jcr:primaryType="bootstrap3nt:columns"
+                                      sectionElement="div"
+                                      sectionId="Header">
+                                                <Header jcr:primaryType="jnt:contentList">
+                                                    <Header_x0020_Container columnsType="nogrid"
+                                                            gridLayout="fixed-width"
+                                                            jcr:mixinTypes="bootstrap3mix:createContainer"
+                                                            jcr:primaryType="bootstrap3nt:columns">
+                                                        <Header_x0020_Container jcr:primaryType="jnt:contentList">
+                                                            <column_x0020_one columnsType="nogrid"
+                                                            jcr:mixinTypes="bootstrap3mix:createSection"
+                                                            jcr:primaryType="bootstrap3nt:columns"
+                                                            sectionCssClass="column_one"
+                                                            sectionElement="div">
+                                                                <column_x0020_one jcr:primaryType="jnt:contentList">
+                                                                    <logo-addons columnsType="predefinedColumns"
+                                                             grid="4_8"
+                                                             jcr:mixinTypes="bootstrap3mix:predefinedColumns"
+                                                             jcr:primaryType="bootstrap3nt:columns">
+                                                                        <logo-addons-side jcr:primaryType="jnt:contentList">
+                                                                            <logo columnsType="nogrid"
+                                                            jcr:mixinTypes="bootstrap3mix:createSection"
+                                                            jcr:primaryType="bootstrap3nt:columns"
+                                                            sectionCssClass="logo"
+                                                            sectionElement="div">
+                                                                                <logo jcr:primaryType="jnt:contentList">
+                                                                                    <Logo-Area j:allowedTypes=""
+                                                                       j:level="0"
+                                                                       j:limitedAbsoluteAreaEdit="false"
+                                                                       jcr:primaryType="jnt:absoluteArea"/>
+                                                                            </logo>
+                                                                            </logo>
+                                                                        </logo-addons-side>
+                                                                        <logo-addons-main jcr:primaryType="jnt:contentList">
+                                                                            <addons columnsType="nogrid"
+                                                              jcr:mixinTypes="bootstrap3mix:createSection"
+                                                              jcr:primaryType="bootstrap3nt:columns"
+                                                              sectionCssClass="addons"
+                                                              sectionElement="div">
+                                                                                <addons jcr:primaryType="jnt:contentList">
+                                                                                    <addons-grid columnsType="predefinedColumns"
+                                                                         grid="4_4_4"
+                                                                         jcr:mixinTypes="bootstrap3mix:predefinedColumns"
+                                                                         jcr:primaryType="bootstrap3nt:columns">
+                                                                                        <addons-grid-extra jcr:primaryType="jnt:contentList">
+                                                                                            <Search j:allowedTypes=""
+                                                                          j:level="0"
+                                                                          j:limitedAbsoluteAreaEdit="false"
+                                                                          jcr:primaryType="jnt:absoluteArea"/>
+                                                                                        </addons-grid-extra>
+                                                                                        <addons-grid-side jcr:primaryType="jnt:contentList">
+                                                                                            <Languages j:allowedTypes=""
+                                                                             j:level="0"
+                                                                             j:limitedAbsoluteAreaEdit="false"
+                                                                             jcr:primaryType="jnt:absoluteArea"/>
+                                                                                        </addons-grid-side>
+                                                                                        <addons-grid-main jcr:primaryType="jnt:contentList">
+                                                                                            <Contact-Blog j:allowedTypes=""
+                                                                                j:level="0"
+                                                                                j:limitedAbsoluteAreaEdit="false"
+                                                                                jcr:primaryType="jnt:absoluteArea"/>
+                                                                                        </addons-grid-main>
+                                                                                    </addons-grid>
+                                                                            </addons>
+                                                                            </addons>
+                                                                        </logo-addons-main>
+                                                                    </logo-addons>
+                                                            </column_x0020_one>
+                                                            </column_x0020_one>
+                                                    </Header_x0020_Container>
+                                                    </Header_x0020_Container>
+                                            </Header>
+                                            </Header>
+                                            <navigation-menu jcr:primaryType="bootstrap3nt:navbar"/>
+                                    </Wrapper>
+                                    </Wrapper>
+                            <Footer columnsType="nogrid"
+                          jcr:mixinTypes="bootstrap3mix:createSection"
+                          jcr:primaryType="bootstrap3nt:columns"
+                          sectionCssClass="clearfix"
+                          sectionElement="div"
+                          sectionId="Footer"/>
+                                </Body>
+                            </Body>
+                        </pagecontent>
                 </base>
                     <content-template j:applyOn="jnt:content"
                               j:hiddenTemplate="true"
