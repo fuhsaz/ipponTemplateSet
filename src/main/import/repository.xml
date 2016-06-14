@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
     <modules jcr:primaryType="jnt:modules">
-        <ippontemplate j:dependencies="bootstrap3-components bootstrap3-core default"
+        <ippontemplate j:dependencies="bootstrap3-components bootstrap3-core default font-awesome"
                      j:installedModules="ippontemplate"
                      j:modulePriority="0"
                      j:moduleType="templatesSet"
@@ -61,6 +61,61 @@
                                                                                    jcr:primaryType="bootstrap3nt:columns"/>
                                                         </items_x0020_group_x0020_sec_x0020_1>
                                                         </items_x0020_group_x0020_sec_x0020_1>
+                                                        <home_x0020_divider_x0020_sec_x0020_1 columnsType="nogrid"
+                                                                             jcr:mixinTypes="bootstrap3mix:createSection"
+                                                                             jcr:primaryType="bootstrap3nt:columns"
+                                                                             sectionCssClass="column one column_divider"
+                                                                             sectionElement="div"/>
+                                                        <home_x0020_second_x0020_3_x0020_items columnsType="predefinedColumns"
+                                                                           grid="4_4_4"
+                                                                           jcr:mixinTypes="bootstrap3mix:predefinedColumns"
+                                                                              jcr:primaryType="bootstrap3nt:columns">
+                                                            <home_x0020_second_x0020_3_x0020_items-main jcr:primaryType="jnt:contentList">
+                                                                <Column_x0020_info_x0020_box columnsType="nogrid"
+                                                                          jcr:mixinTypes="bootstrap3mix:createSection"
+                                                                          jcr:primaryType="bootstrap3nt:columns"
+                                                                          sectionCssClass="column column_info_box"
+                                                                          sectionElement="div">
+                                                                    <Column_x0020_info_x0020_box jcr:primaryType="jnt:contentList">
+                                                                        <info_x0020_box columnsType="nogrid"
+                                                                   jcr:mixinTypes="bootstrap3mix:createSection"
+                                                                   jcr:primaryType="bootstrap3nt:columns"
+                                                                   sectionCssClass="info_box"
+                                                                   sectionElement="div">
+                                                                            <info_x0020_box jcr:primaryType="jnt:contentList">
+                                                                                <info_x0020_box_x0020_wrapper columnsType="nogrid"
+                                                                                       jcr:mixinTypes="bootstrap3mix:createSection"
+                                                                                       jcr:primaryType="bootstrap3nt:columns"
+                                                                                       sectionCssClass="info_box_wrapper"
+                                                                                       sectionElement="div"/>
+                                                                        </info_x0020_box>
+                                                                        </info_x0020_box>
+                                                                </Column_x0020_info_x0020_box>
+                                                                </Column_x0020_info_x0020_box>
+                                                            </home_x0020_second_x0020_3_x0020_items-main>
+                                                            <home_x0020_second_x0020_3_x0020_items-side jcr:primaryType="jnt:contentList">
+                                                                <Column_x0020_column columnsType="nogrid"
+                                                                          jcr:mixinTypes="bootstrap3mix:createSection"
+                                                                          jcr:primaryType="bootstrap3nt:columns"
+                                                                  sectionCssClass="column column_column"
+                                                                          sectionElement="div"/>
+                                                            </home_x0020_second_x0020_3_x0020_items-side>
+                                                            <home_x0020_second_x0020_3_x0020_items-extra jcr:primaryType="jnt:contentList">
+                                                                <Column_x0020_testimonials columnsType="nogrid"
+                                                                  jcr:mixinTypes="bootstrap3mix:createSection"
+                                                                  jcr:primaryType="bootstrap3nt:columns"
+                                                                        sectionCssClass="column column_testimonials"
+                                                                        sectionElement="div">
+                                                                    <Column_x0020_testimonials jcr:primaryType="jnt:contentList">
+                                                                        <testimonials_x0020_wrapper columnsType="nogrid"
+                                                                               jcr:mixinTypes="bootstrap3mix:createSection"
+                                                                               jcr:primaryType="bootstrap3nt:columns"
+                                                                               sectionCssClass="testimonials_wrapper has_border"
+                                                                               sectionElement="div"/>
+                                                                </Column_x0020_testimonials>
+                                                                </Column_x0020_testimonials>
+                                                            </home_x0020_second_x0020_3_x0020_items-extra>
+                                                        </home_x0020_second_x0020_3_x0020_items>
                                                     </section_x0020_wrapper>
                                                     <section_x0020_wrapper-1 jcr:primaryType="jnt:contentList"/>
                                                 </section_x0020_wrapper>
@@ -176,8 +231,7 @@
                                                             sectionCssClass="logo"
                                                             sectionElement="div">
                                                                                 <logo jcr:primaryType="jnt:contentList">
-                                                                                    <Logo-Area j:allowedTypes=""
-                                                                       j:level="0"
+                                                                                    <Logo-Area j:level="0"
                                                                        j:limitedAbsoluteAreaEdit="false"
                                                                        jcr:primaryType="jnt:absoluteArea"/>
                                                                             </logo>
@@ -195,20 +249,17 @@
                                                                          jcr:mixinTypes="bootstrap3mix:predefinedColumns"
                                                                          jcr:primaryType="bootstrap3nt:columns">
                                                                                         <addons-grid-extra jcr:primaryType="jnt:contentList">
-                                                                                            <Search j:allowedTypes=""
-                                                                          j:level="0"
+                                                                                            <Search j:level="0"
                                                                           j:limitedAbsoluteAreaEdit="false"
                                                                           jcr:primaryType="jnt:absoluteArea"/>
                                                                                         </addons-grid-extra>
                                                                                         <addons-grid-side jcr:primaryType="jnt:contentList">
-                                                                                            <Languages j:allowedTypes=""
-                                                                             j:level="0"
+                                                                                            <Languages j:level="0"
                                                                              j:limitedAbsoluteAreaEdit="false"
                                                                              jcr:primaryType="jnt:absoluteArea"/>
                                                                                         </addons-grid-side>
                                                                                         <addons-grid-main jcr:primaryType="jnt:contentList">
-                                                                                            <Contact-Blog j:allowedTypes=""
-                                                                                j:level="0"
+                                                                                            <Contact-Blog j:level="0"
                                                                                 j:limitedAbsoluteAreaEdit="false"
                                                                                 jcr:primaryType="jnt:absoluteArea"/>
                                                                                         </addons-grid-main>
@@ -271,8 +322,7 @@
                                                               sectionElement="div"
                                                               sectionId="text-5">
                                                                         <text_x0020_5 jcr:primaryType="jnt:contentList">
-                                                                            <networks_x0020_area j:allowedTypes=""
-                                                                           j:level="0"
+                                                                            <networks_x0020_area j:level="0"
                                                                            j:limitedAbsoluteAreaEdit="false"
                                                                            jcr:primaryType="jnt:absoluteArea"/>
                                                                     </text_x0020_5>
@@ -305,8 +355,7 @@
                                                                               sectionCssClass="column footer-widgets-1"
                                                                               sectionElement="div">
                                                                         <footer_x0020_widgets_x0020_1 jcr:primaryType="jnt:contentList">
-                                                                            <widgets_x0020_1_x0020_area j:allowedTypes=""
-                                                                                  j:level="0"
+                                                                            <widgets_x0020_1_x0020_area j:level="0"
                                                                                   j:limitedAbsoluteAreaEdit="false"
                                                                                   jcr:primaryType="jnt:absoluteArea"/>
                                                                     </footer_x0020_widgets_x0020_1>
@@ -319,8 +368,7 @@
                                                                               sectionCssClass="column footer-widgets-2"
                                                                               sectionElement="div">
                                                                         <footer_x0020_widgets_x0020_2 jcr:primaryType="jnt:contentList">
-                                                                            <widgets_x0020_2_x0020_area j:allowedTypes=""
-                                                                                  j:level="0"
+                                                                            <widgets_x0020_2_x0020_area j:level="0"
                                                                                   j:limitedAbsoluteAreaEdit="false"
                                                                                   jcr:primaryType="jnt:absoluteArea"/>
                                                                     </footer_x0020_widgets_x0020_2>
@@ -333,8 +381,7 @@
                                                                               sectionCssClass="column footer-widgets-3"
                                                                               sectionElement="div">
                                                                         <footer_x0020_widgets_x0020_3 jcr:primaryType="jnt:contentList">
-                                                                            <widgets_x0020_3_x0020_area j:allowedTypes=""
-                                                                                  j:level="0"
+                                                                            <widgets_x0020_3_x0020_area j:level="0"
                                                                                   j:limitedAbsoluteAreaEdit="false"
                                                                                   jcr:primaryType="jnt:absoluteArea"/>
                                                                     </footer_x0020_widgets_x0020_3>
@@ -364,8 +411,7 @@
                                                            sectionCssClass="ippon-copyright"
                                                            sectionElement="div">
                                                         <ippon_x0020_copyright jcr:primaryType="jnt:contentList">
-                                                            <copyright j:allowedTypes=""
-                                                     j:level="0"
+                                                            <copyright j:level="0"
                                                      j:limitedAbsoluteAreaEdit="false"
                                                      jcr:primaryType="jnt:absoluteArea"/>
                                                     </ippon_x0020_copyright>
@@ -381,8 +427,7 @@
                                                            jcr:mixinTypes="bootstrap3mix:createContainer"
                                                            jcr:primaryType="bootstrap3nt:columns">
                                 <back_x0020_to_x0020_top_x0020_container jcr:primaryType="jnt:contentList">
-                                    <back_x0020_to_x0020_top_x0020_button j:allowedTypes=""
-                                                              j:level="0"
+                                    <back_x0020_to_x0020_top_x0020_button j:level="0"
                                                               j:limitedAbsoluteAreaEdit="false"
                                                               jcr:primaryType="jnt:absoluteArea"/>
                             </back_x0020_to_x0020_top_x0020_container>
@@ -390,6 +435,7 @@
                         </pagecontent>
                         <other j:hiddenTemplate="false" jcr:primaryType="jnt:pageTemplate">
                             <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
                                     jcr:primaryType="jnt:translation"
                                     jcr:title="other"/>
                             <Slider_x0020_or_x0020_subheader jcr:primaryType="jnt:contentList">
