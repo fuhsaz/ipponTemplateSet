@@ -118,6 +118,24 @@
                                             </Header>
                                             </Header>
                                             <navigation-menu jcr:primaryType="bootstrap3nt:navbar"/>
+                                            <Slider_x0020_or_x0020_subheader columnsType="nogrid" jcr:primaryType="bootstrap3nt:columns">
+                                                <Slider_x0020_or_x0020_subheader jcr:primaryType="jnt:contentList">
+                                                    <subheader_x0020_or_x0020_slider j:allowedTypes="" jcr:primaryType="jnt:area"/>
+                                            </Slider_x0020_or_x0020_subheader>
+                                            </Slider_x0020_or_x0020_subheader>
+                                            <Content columnsType="nogrid"
+                                       jcr:mixinTypes="bootstrap3mix:createSection"
+                                       jcr:primaryType="bootstrap3nt:columns"
+                                       sectionElement="div"
+                                       sectionId="Content">
+                                                <Content jcr:primaryType="jnt:contentList">
+                                                    <content-wrapper columnsType="nogrid"
+                                                     jcr:mixinTypes="bootstrap3mix:createSection"
+                                                     jcr:primaryType="bootstrap3nt:columns"
+                                                     sectionCssClass="content_wrapper clearfix"
+                                                     sectionElement="div"/>
+                                            </Content>
+                                            </Content>
                                     </Wrapper>
                                     </Wrapper>
                             <Footer columnsType="nogrid"
@@ -125,9 +143,31 @@
                           jcr:primaryType="bootstrap3nt:columns"
                           sectionCssClass="clearfix"
                           sectionElement="div"
-                          sectionId="Footer"/>
+                                sectionId="Footer">
+                                        <Footer jcr:primaryType="jnt:contentList">
+                                            <networks_x0020_wrapper columnsType="nogrid"
+                                                      jcr:mixinTypes="bootstrap3mix:createSection"
+                                                      jcr:primaryType="bootstrap3nt:columns"
+                                                      sectionCssClass="networks-wrapper"
+                                                      sectionElement="div"/>
+                                            <widgets_x0020_wrapper columnsType="nogrid"
+                                                     jcr:mixinTypes="bootstrap3mix:createSection"
+                                                     jcr:primaryType="bootstrap3nt:columns"
+                                                     sectionCssClass="widgets_wrapper"
+                                                     sectionElement="div"/>
+                                    </Footer>
+                                    </Footer>
+                                    <footer_x0020_menu columnsType="nogrid"
+                                           jcr:mixinTypes="bootstrap3mix:createSection"
+                                           jcr:primaryType="bootstrap3nt:columns"
+                                           sectionCssClass="footer_menu"
+                                           sectionElement="div"/>
                                 </Body>
                             </Body>
+                            <back_x0020_to_x0020_top_x0020_container columnsType="nogrid"
+                                                           gridLayout="fixed-width"
+                                                           jcr:mixinTypes="bootstrap3mix:createContainer"
+                                                           jcr:primaryType="bootstrap3nt:columns"/>
                         </pagecontent>
                 </base>
                     <content-template j:applyOn="jnt:content"
