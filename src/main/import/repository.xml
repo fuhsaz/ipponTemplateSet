@@ -22,8 +22,112 @@
                   j:view="ippontemplate"
                   jcr:mixinTypes="jmix:theme"
                   jcr:primaryType="jnt:template">
-                    <home jcr:primaryType="jnt:pageTemplate"/>
-                    <simple jcr:primaryType="jnt:pageTemplate"/>
+                        <home jcr:primaryType="jnt:pageTemplate">
+                            <Slider_x0020_or_x0020_subheader jcr:primaryType="jnt:contentList">
+                                <slider columnsType="nogrid"
+                              jcr:mixinTypes="bootstrap3mix:createSection"
+                              jcr:primaryType="bootstrap3nt:columns"
+                             sectionElement="div"
+                             sectionId="mfn-rev-slider"/>
+                            </Slider_x0020_or_x0020_subheader>
+                            <content-wrapper jcr:primaryType="jnt:contentList">
+                                <sections_x0020_group columnsType="nogrid"
+                                           jcr:mixinTypes="bootstrap3mix:createSection"
+                                           jcr:primaryType="bootstrap3nt:columns"
+                                           sectionCssClass="sections_group"
+                                           sectionElement="div">
+                                    <sections_x0020_group jcr:primaryType="jnt:contentList">
+                                        <Section_x0020_1_x0020_home columnsType="nogrid"
+                                                       jcr:mixinTypes="bootstrap3mix:createSection"
+                                                       jcr:primaryType="bootstrap3nt:columns"
+                                                       sectionCssClass="section section-1-home"
+                                                       sectionElement="div">
+                                            <Section_x0020_1_x0020_home jcr:primaryType="jnt:contentList">
+                                                <section_x0020_wrapper columnsType="nogrid"
+                                                        jcr:mixinTypes="bootstrap3mix:createSection"
+                                                        jcr:primaryType="bootstrap3nt:columns"
+                                                        sectionCssClass="section_wrapper clearfix"
+                                                        sectionElement="div">
+                                                    <section_x0020_wrapper jcr:primaryType="jnt:contentList">
+                                                        <items_x0020_group_x0020_sec_x0020_1 columnsType="nogrid"
+                                                                            jcr:mixinTypes="bootstrap3mix:createSection"
+                                                                            jcr:primaryType="bootstrap3nt:columns"
+                                                                            sectionCssClass="items_group clearfix"
+                                                                            sectionElement="div">
+                                                            <items_x0020_group_x0020_sec_x0020_1 jcr:primaryType="jnt:contentList">
+                                                                <home_x0020_first_x0020_4_x0020_items columnsType="predefinedColumns"
+                                                                                   grid="3_3_3_3"
+                                                                                   jcr:mixinTypes="bootstrap3mix:predefinedColumns"
+                                                                                   jcr:primaryType="bootstrap3nt:columns"/>
+                                                        </items_x0020_group_x0020_sec_x0020_1>
+                                                        </items_x0020_group_x0020_sec_x0020_1>
+                                                    </section_x0020_wrapper>
+                                                    <section_x0020_wrapper-1 jcr:primaryType="jnt:contentList"/>
+                                                </section_x0020_wrapper>
+                                        </Section_x0020_1_x0020_home>
+                                        </Section_x0020_1_x0020_home>
+                                        <Section_x0020_2_x0020_home columnsType="nogrid"
+                                                       jcr:mixinTypes="bootstrap3mix:createSection"
+                                                       jcr:primaryType="bootstrap3nt:columns"
+                                                       sectionCssClass="section section-2-home"
+                                                       sectionElement="div">
+                                            <Section_x0020_2_x0020_home jcr:primaryType="jnt:contentList">
+                                                <section_x0020_wrapper columnsType="nogrid"
+                                                        jcr:mixinTypes="bootstrap3mix:createSection"
+                                                        jcr:primaryType="bootstrap3nt:columns"
+                                                        sectionCssClass="section_wrapper clearfix"
+                                                        sectionElement="div">
+                                                    <section_x0020_wrapper jcr:primaryType="jnt:contentList">
+                                                        <Items_x0020_group_x0020_sec_x0020_2 columnsType="nogrid"
+                                                                            jcr:mixinTypes="bootstrap3mix:createSection"
+                                                                            jcr:primaryType="bootstrap3nt:columns"
+                                                                            sectionCssClass="items_group clearfix"
+                                                                            sectionElement="div">
+                                                            <Items_x0020_group_x0020_sec_x0020_2 jcr:primaryType="jnt:contentList">
+                                                                <quick_x0020_form_x0020_column columnsType="nogrid"
+                                                                            jcr:mixinTypes="bootstrap3mix:createSection"
+                                                                            jcr:primaryType="bootstrap3nt:columns"
+                                                                            sectionCssClass="column one column-quick-form"
+                                                                            sectionElement="div">
+                                                                    <quick_x0020_form_x0020_column jcr:primaryType="jnt:contentList">
+                                                                        <quick_x0020_form columnsType="nogrid"
+                                                                     jcr:mixinTypes="bootstrap3mix:createSection"
+                                                                     jcr:primaryType="bootstrap3nt:columns"
+                                                                     sectionCssClass="quick_form"
+                                                                     sectionElement="div"/>
+                                                                </quick_x0020_form_x0020_column>
+                                                                </quick_x0020_form_x0020_column>
+                                                        </Items_x0020_group_x0020_sec_x0020_2>
+                                                        </Items_x0020_group_x0020_sec_x0020_2>
+                                                </section_x0020_wrapper>
+                                                </section_x0020_wrapper>
+                                        </Section_x0020_2_x0020_home>
+                                        </Section_x0020_2_x0020_home>
+                                </sections_x0020_group>
+                                </sections_x0020_group>
+                                <Section_x0020_3_x0020_home columnsType="nogrid"
+                                                 jcr:mixinTypes="bootstrap3mix:createSection"
+                                                 jcr:primaryType="bootstrap3nt:columns"
+                                                 sectionCssClass="section section-3-home"
+                                                 sectionElement="div">
+                                    <Section_x0020_3_x0020_home jcr:primaryType="jnt:contentList">
+                                        <section_x0020_wrapper columnsType="nogrid"
+                                                  jcr:mixinTypes="bootstrap3mix:createSection"
+                                                  jcr:primaryType="bootstrap3nt:columns"
+                                                  sectionCssClass="section_wrapper clearfix"
+                                                  sectionElement="div">
+                                            <section_x0020_wrapper jcr:primaryType="jnt:contentList">
+                                                <Items_x0020_group_x0020_sec_x0020_3 columnsType="nogrid"
+                                                                      jcr:mixinTypes="bootstrap3mix:createSection"
+                                                                      jcr:primaryType="bootstrap3nt:columns"
+                                                                      sectionCssClass="items_group clearfix"
+                                                                      sectionElement="div"/>
+                                        </section_x0020_wrapper>
+                                        </section_x0020_wrapper>
+                                </Section_x0020_3_x0020_home>
+                                </Section_x0020_3_x0020_home>
+                            </content-wrapper>
+                        </home>
                         <pagecontent jcr:primaryType="jnt:contentList">
                             <Body columnsType="nogrid"
                         jcr:mixinTypes="bootstrap3mix:createSection"
@@ -118,11 +222,7 @@
                                             </Header>
                                             </Header>
                                             <navigation-menu jcr:primaryType="bootstrap3nt:navbar"/>
-                                            <Slider_x0020_or_x0020_subheader columnsType="nogrid" jcr:primaryType="bootstrap3nt:columns">
-                                                <Slider_x0020_or_x0020_subheader jcr:primaryType="jnt:contentList">
-                                                    <subheader_x0020_or_x0020_slider j:allowedTypes="" jcr:primaryType="jnt:area"/>
-                                            </Slider_x0020_or_x0020_subheader>
-                                            </Slider_x0020_or_x0020_subheader>
+                                            <Slider_x0020_or_x0020_subheader columnsType="nogrid" jcr:primaryType="bootstrap3nt:columns"/>
                                             <Content columnsType="nogrid"
                                        jcr:mixinTypes="bootstrap3mix:createSection"
                                        jcr:primaryType="bootstrap3nt:columns"
@@ -149,25 +249,114 @@
                                                       jcr:mixinTypes="bootstrap3mix:createSection"
                                                       jcr:primaryType="bootstrap3nt:columns"
                                                       sectionCssClass="networks-wrapper"
-                                                      sectionElement="div"/>
+                                                      sectionElement="div">
+                                                <networks_x0020_wrapper jcr:primaryType="jnt:contentList">
+                                                    <networks_x0020_banner columnsType="nogrid"
+                                                           jcr:mixinTypes="bootstrap3mix:createSection"
+                                                           jcr:primaryType="bootstrap3nt:columns"
+                                                           sectionCssClass="networks-banner"
+                                                           sectionElement="div">
+                                                        <networks_x0020_banner jcr:primaryType="jnt:contentList">
+                                                            <networks_x0020_container columnsType="nogrid"
+                                                                    gridLayout="fixed-width"
+                                                                    jcr:mixinTypes="bootstrap3mix:createContainer"
+                                                                    jcr:primaryType="bootstrap3nt:columns">
+                                                                <networks_x0020_container jcr:primaryType="jnt:contentList">
+                                                                    <text_x0020_5 columnsType="nogrid"
+                                                              jcr:mixinTypes="bootstrap3mix:createSection"
+                                                              jcr:primaryType="bootstrap3nt:columns"
+                                                              sectionCssClass="widget widget-text"
+                                                              sectionElement="div"
+                                                              sectionId="text-5"/>
+                                                            </networks_x0020_container>
+                                                            </networks_x0020_container>
+                                                    </networks_x0020_banner>
+                                                    </networks_x0020_banner>
+                                            </networks_x0020_wrapper>
+                                            </networks_x0020_wrapper>
                                             <widgets_x0020_wrapper columnsType="nogrid"
                                                      jcr:mixinTypes="bootstrap3mix:createSection"
                                                      jcr:primaryType="bootstrap3nt:columns"
                                                      sectionCssClass="widgets_wrapper"
-                                                     sectionElement="div"/>
+                                                     sectionElement="div">
+                                                <widgets_x0020_wrapper jcr:primaryType="jnt:contentList">
+                                                    <widgets_x0020_container columnsType="nogrid"
+                                                             gridLayout="fixed-width"
+                                                             jcr:mixinTypes="bootstrap3mix:createContainer"
+                                                             jcr:primaryType="bootstrap3nt:columns">
+                                                        <widgets_x0020_container jcr:primaryType="jnt:contentList">
+                                                            <widgets_x0020_grid columnsType="predefinedColumns"
+                                                              grid="4_4_4"
+                                                              jcr:mixinTypes="bootstrap3mix:predefinedColumns"
+                                                              jcr:primaryType="bootstrap3nt:columns">
+                                                                <widgets_x0020_grid-main jcr:primaryType="jnt:contentList">
+                                                                    <footer_x0020_widgets_x0020_1 columnsType="nogrid"
+                                                                              jcr:mixinTypes="bootstrap3mix:createSection"
+                                                                              jcr:primaryType="bootstrap3nt:columns"
+                                                                              sectionCssClass="column footer-widgets-1"
+                                                                              sectionElement="div"/>
+                                                                </widgets_x0020_grid-main>
+                                                                <widgets_x0020_grid-side jcr:primaryType="jnt:contentList">
+                                                                    <footer_x0020_widgets_x0020_2 columnsType="nogrid"
+                                                                              jcr:mixinTypes="bootstrap3mix:createSection"
+                                                                              jcr:primaryType="bootstrap3nt:columns"
+                                                                              sectionCssClass="column footer-widgets-2"
+                                                                              sectionElement="div"/>
+                                                                </widgets_x0020_grid-side>
+                                                                <widgets_x0020_grid-extra jcr:primaryType="jnt:contentList">
+                                                                    <footer_x0020_widgets_x0020_3 columnsType="nogrid"
+                                                                              jcr:mixinTypes="bootstrap3mix:createSection"
+                                                                              jcr:primaryType="bootstrap3nt:columns"
+                                                                              sectionCssClass="column footer-widgets-3"
+                                                                              sectionElement="div"/>
+                                                                </widgets_x0020_grid-extra>
+                                                            </widgets_x0020_grid>
+                                                    </widgets_x0020_container>
+                                                    </widgets_x0020_container>
+                                            </widgets_x0020_wrapper>
+                                            </widgets_x0020_wrapper>
                                     </Footer>
                                     </Footer>
                                     <footer_x0020_menu columnsType="nogrid"
                                            jcr:mixinTypes="bootstrap3mix:createSection"
                                            jcr:primaryType="bootstrap3nt:columns"
                                            sectionCssClass="footer_menu"
-                                           sectionElement="div"/>
+                                           sectionElement="div">
+                                        <footer_x0020_menu jcr:primaryType="jnt:contentList">
+                                            <menu_x0020_container columnsType="nogrid"
+                                                    gridLayout="fixed-width"
+                                                    jcr:mixinTypes="bootstrap3mix:createContainer"
+                                                    jcr:primaryType="bootstrap3nt:columns">
+                                                <menu_x0020_container jcr:primaryType="jnt:contentList">
+                                                    <ippon_x0020_copyright columnsType="nogrid"
+                                                           jcr:mixinTypes="bootstrap3mix:createSection"
+                                                           jcr:primaryType="bootstrap3nt:columns"
+                                                           sectionCssClass="ippon-copyright"
+                                                           sectionElement="div">
+                                                        <ippon_x0020_copyright jcr:primaryType="jnt:contentList">
+                                                            <copyright j:allowedTypes=""
+                                                     j:level="0"
+                                                     j:limitedAbsoluteAreaEdit="false"
+                                                     jcr:primaryType="jnt:absoluteArea"/>
+                                                    </ippon_x0020_copyright>
+                                                    </ippon_x0020_copyright>
+                                            </menu_x0020_container>
+                                            </menu_x0020_container>
+                                    </footer_x0020_menu>
+                                    </footer_x0020_menu>
                                 </Body>
                             </Body>
                             <back_x0020_to_x0020_top_x0020_container columnsType="nogrid"
                                                            gridLayout="fixed-width"
                                                            jcr:mixinTypes="bootstrap3mix:createContainer"
-                                                           jcr:primaryType="bootstrap3nt:columns"/>
+                                                           jcr:primaryType="bootstrap3nt:columns">
+                                <back_x0020_to_x0020_top_x0020_container jcr:primaryType="jnt:contentList">
+                                    <back_x0020_to_x0020_top_x0020_button j:allowedTypes=""
+                                                              j:level="0"
+                                                              j:limitedAbsoluteAreaEdit="false"
+                                                              jcr:primaryType="jnt:absoluteArea"/>
+                            </back_x0020_to_x0020_top_x0020_container>
+                            </back_x0020_to_x0020_top_x0020_container>
                         </pagecontent>
                 </base>
                     <content-template j:applyOn="jnt:content"
