@@ -16,16 +16,17 @@
                             <resources jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
                                 <css jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:cssFolder">
                                     <brandon jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
-                                        <css jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:cssFolder">
-                                            <fonts.css jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:cssFile"/>
+                                        <css jcr:primaryType="jnt:cssFolder">
+                                            <fonts.css jcr:primaryType="jnt:cssFile"/>
                                         </css>
                                     </brandon>
+                                    <brandon-child jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
+                                        <style.css jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:cssFile"/>
+                                    </brandon-child>
                                 </css>
-                                <jnt_template jcr:mixinTypes="jmix:sourceControl"
-                                   jcr:primaryType="jnt:nodeTypeFolder">
-                                    <html jcr:mixinTypes="jmix:sourceControl"
-                              jcr:primaryType="jnt:templateTypeFolder">
-                                        <template.ippontemplate.jsp jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:viewFile"/>
+                                <jnt_template jcr:primaryType="jnt:nodeTypeFolder">
+                                    <html jcr:primaryType="jnt:templateTypeFolder">
+                                        <template.ippontemplate.jsp jcr:primaryType="jnt:viewFile"/>
                                     </html>
                                 </jnt_template>
                             </resources>
